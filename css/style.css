@@ -1,0 +1,48 @@
+/*regole generali*/
+.page {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-align: center;
+  }
+
+/*fine regole*/
+
+/*layout immagini e scritte*/
+img {
+  height: 320px;
+}
+.thirty{
+  background: green;
+}
+.five{
+  background-color: red;
+}
+/*fine layout*/
+
+/*disposizione elementi contenitore*/
+.product{
+  display: inline-block;
+  position: relative;
+}
+.discount{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.heart{
+  font-size: 50px;
+  position: absolute;
+  bottom:0;
+  left: 50%;
+  z-index: -1;
+}
+/*fine disposizione elementi*/
+
+/*elementi di interazione*/
+
+.heart:hover {
+  color: darkred;
+}
+
+/*fine elementi di interazione*/
